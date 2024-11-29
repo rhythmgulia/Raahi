@@ -1,0 +1,142 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #000000; /* Changed to black for RAAHI */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.nav-links li a:hover {
+    color: #2ECC71;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-button, .register-button {
+    background-color: #2ECC71;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.login-button:hover, .register-button:hover {
+    background-color: #28a745;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 30px;
+    background: #f7fdfc;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Services Section */
+.hero-services {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-services h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.services-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-list img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.services-list p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Illustration Section */
+.illustration {
+    padding: 50px 30px;
+    text-align: center
+    background-color: #f9f9f9;
+}
+
+.map-container img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
